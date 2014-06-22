@@ -191,4 +191,4 @@ c("subject","activity",
 
 
 ## write tidy data set
-write.csv(subjectActivityMean,file="subjectActivityMean.csv",row.names=FALSE)
+write.csv(subjectActivityMean,file="subjectActivityMean.txt",row.names=FALSE)

@@ -42,7 +42,7 @@ This data set is created using an analysis script, run_Analysis.R, written in th
 
 - the melted data set is then aggregated across subject and activity computing the mean of each measurement  
 
-- the aggregated tidy data set is written to a csv formatted file "subjectActivityMean.csv" in the working directory
+- the aggregated tidy data set is written to a csv formatted file "subjectActivityMean.txt" in the working directory
 
 Variables
 ---------

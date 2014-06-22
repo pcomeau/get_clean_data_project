@@ -13,7 +13,7 @@ Steps for executing analysis script:
 
 4. Execute the analysis script within R Studio by invoking: source("run_analysis.R")
 
-5. The script will download and unzip appropriate data files, perform associated transfotmations, then write the aggregated tidy data set to a csv formatted file "subjectActivityMean.csv" in the working directory
+5. The script will download and unzip appropriate data files, perform associated transfotmations, then write the aggregated tidy data set to a csv formatted file "subjectActivityMean.txt" in the working directory
 
 6. Open the resulting file within R using the read.csv("subjectActivityMean.csv") command. Refer the code book (CodeBook.md) for further details of the resulting tidy data file.
 
