@@ -14,7 +14,7 @@ This data set provides averages of the mean and standard deviation measuement by
 
 The data set adheres to the principles of tidy data:
 
-1. Each Variable measured is in one column
+1. Each Variable measured is in one column. The columns have been given descriptive names
 
 2. Each observation is in a separate row
 
@@ -53,175 +53,167 @@ Following is a description of the variables in the data set by position:
 
 2:activity - the specific activity ; activities include WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-The remaining variables following the naming convention provided in the "Human Activity Recognition Using Smartphones Data Set" with the exception that each of the measurments in this data set represent an average. (prefixed by "avg-"). Hence, this code book will not re-describe each of the variables but instead provide exerpts from the referenced data set's code book:
+3:Average time domain Body Acceleration on the x axis of the phone mean
 
-... the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. [1]
+4:Average time domain Body Acceleration on the y axis of the phone mean
 
-Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). [1]
+5:Average time domain Body Acceleration on the z axis of the phone mean
 
-Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). [1]
+6:Average time domain Body Acceleration on the x axis of the phone standard deviation
 
-These signals were used to estimate variables of the feature vector for each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions. [1]
+7:Average time domain Body Acceleration on the y axis of the phone standard deviation
 
+8:Average time domain Body Acceleration on the z axis of the phone standard deviation
 
-3:avg- tBodyAcc.mean-X
+9:Average time domain Gravity Acceleration on the x axis of the phone mean
 
-4:avg- tBodyAcc.mean-Y
+10:Average time domain Gravity Acceleration on the y axis of the phone mean
 
-5:avg- tBodyAcc.mean-Z
+11:Average time domain Gravity Acceleration on the z axis of the phone mean
 
-6:avg- tBodyAcc.std-X
+12:Average time domain Gravity Acceleration on the x axis of the phone standard deviation
 
-7:avg- tBodyAcc.std-Y
+13:Average time domain Gravity Acceleration on the y axis of the phone standard deviation
 
-8:avg- tBodyAcc.std-Z
+14:Average time domain Gravity Acceleration on the z axis of the phone standard deviation
 
-9:avg- tGravityAcc.mean-X
+15:Average time domain Jerk Acceleration of the body on the x axiz of the phone mean
 
-10:avg- tGravityAcc.mean-Y
+16:Average time domain Jerk Acceleration of the body on the y axiz of the phone mean
 
-11:avg- tGravityAcc.mean-Z
+17:Average time domain Jerk Acceleration of the body on the z axiz of the phone mean
 
-12:avg- tGravityAcc.std-X
+18:Average time domain Jerk Acceleration of the body on the x axiz of the phone standard 
+deviation
 
-13:avg- tGravityAcc.std-Y
+19:Average time domain Jerk Acceleration of the body on the y axiz of the phone standard 
+deviation
 
-14:avg- tGravityAcc.std-Z
+20:Average time domain Jerk Acceleration of the body on the z axiz of the phone standard 
+deviation
 
-15:avg- tBodyAccJerk.mean-X
+21:Average time domain Body Gyroscope on the x axis of the phone mean
 
-16:avg- tBodyAccJerk.mean-Y
+22:Average time domain Body Gyroscope on the y axis of the phone mean
 
-17:avg- tBodyAccJerk.mean-Z
+23:Average time domain Body Gyroscope on the z axis of the phone mean
 
-18:avg- tBodyAccJerk.std-X
+24:Average time domain Body Gyroscope on the x axis of the phone standard deviation
 
-19:avg- tBodyAccJerk.std-Y
+25:Average time domain Body Gyroscope on the y axis of the phone standard deviation
 
-20:avg- tBodyAccJerk.std-Z
+26:Average time domain Body Gyroscope on the z axis of the phone standard deviation
 
-21:avg- tBodyGyro.mean-X
+27:Average time domain Body Gyroscope Jerk on the x axis of the phone mean
 
-22:avg- tBodyGyro.mean-Y
+28:Average time domain Body Gyroscope Jerk on the y axis of the phone mean
 
-23:avg- tBodyGyro.mean-Z
+29:Average time domain Body Gyroscope Jerk on the z axis of the phone mean
 
-24:avg- tBodyGyro.std-X
+30:Average time domain Body Gyroscope Jerk on the x axis of the phone standard deviation
 
-25:avg- tBodyGyro.std-Y
+31:Average time domain Body Gyroscope Jerk on the y axis of the phone standard deviation
 
-26:avg- tBodyGyro.std-Z
+32:Average time domain Body Gyroscope Jerk on the z axis of the phone standard deviation
 
-27:avg- tBodyGyroJerk.mean-X
+33:Average time domain Body Acceleration of the phone Magnitude mean
 
-28:avg- tBodyGyroJerk.mean-Y
+34:Average time domain Body Acceleration of the phone Magnitude standard deviation
 
-29:avg- tBodyGyroJerk.mean-Z
+35:Average time domain Gravity Acceleration of the phone Magnitude mean
 
-30:avg- tBodyGyroJerk.std-X
+36:Average time domain Gravity Acceleration of the phone Magnitude standard deviation
 
-31:avg- tBodyGyroJerk.std-Y
+37:Average time domain Jerk Acceleration of the phone Magnitude mean
 
-32:avg- tBodyGyroJerk.std-Z
+38:Average time domain Jerk Acceleration of the phone Magnitude standard deviation
 
-33:avg- tBodyAccMag.mean..
+39:Average time domain Body Gyroscope of the phone Magnitude mean
 
-34:avg- tBodyAccMag.std..
+40:Average time domain Body Gyroscope of the phone Magnitude standard deviation
 
-35:avg- tGravityAccMag.mean..
+41:Average time domain Body Gyroscope of the phone Magnitude mean
 
-36:avg- tGravityAccMag.std..
+42:Average time domain Body Gyroscope of the phone Magnitude standard deviation
 
-37:avg- tBodyAccJerkMag.mean..
+43:Average frequency domain Body Acceleration on the x axis of the phone mean
 
-38:avg- tBodyAccJerkMag.std..
+44:Average frequency domain Body Acceleration on the y axis of the phone mean
 
-39:avg- tBodyGyroMag.mean..
+45:Average frequency domain Body Acceleration on the z axis of the phone mean
 
-40:avg- tBodyGyroMag.std..
+46:Average frequency domain Body Acceleration on the x axis of the phone standard deviation
 
-41:avg- tBodyGyroJerkMag.mean..
+47:Average frequency domain Body Acceleration on the y axis of the phone standard deviation
 
-42:avg- tBodyGyroJerkMag.std..
+48:Average frequency domain Body Acceleration on the z axis of the phone standard deviation
 
-43:avg- fBodyAcc.mean-X
+49:Average frequency domain Body Acceleration on the x axis of the phone mean frequency
 
-44:avg- fBodyAcc.mean-Y
+50:Average frequency domain Body Acceleration on the y axis of the phone mean frequency
 
-45:avg- fBodyAcc.mean-Z
+51:Average frequency domain Body Acceleration on the z axis of the phone mean frequency
 
-46:avg- fBodyAcc.std-X
+52:Average frequency domain Jerk Acceleration of the body on the x axiz of the phone mean
 
-47:avg- fBodyAcc.std-Y
+53:Average frequency domain Jerk Acceleration of the body on the y axiz of the phone mean
 
-48:avg- fBodyAcc.std-Z
+54:Average frequency domain Jerk Acceleration of the body on the z axiz of the phone mean
 
-49:avg- fBodyAcc.meanFreq-X
+55:Average frequency domain Jerk Acceleration of the body on the x axiz of the phone 
+standard deviation
 
-50:avg- fBodyAcc.meanFreq-Y
+56:Average frequency domain Jerk Acceleration of the body on the y axiz of the phone standard deviation
 
-51:avg- fBodyAcc.meanFreq-Z
+57:Average frequency domain Jerk Acceleration of the body on the z axiz of the phone standard deviation
 
-52:avg- fBodyAccJerk.mean-X
+58:Average frequency domain Jerk Acceleration of the body on the x axiz of the phone mean frequency
 
-53:avg- fBodyAccJerk.mean-Y
+59:Average frequency domain Jerk Acceleration of the body on the y axiz of the phone mean frequency
 
-54:avg- fBodyAccJerk.mean-Z
+60:Average frequency domain Jerk Acceleration of the body on the z axiz of the phone mean frequency
 
-55:avg- fBodyAccJerk.std-X
+61:Average frequency domain Body Gyroscope on the x axis of the phone mean
 
-56:avg- fBodyAccJerk.std-Y
+62:Average frequency domain Body Gyroscope on the y axis of the phone mean
 
-57:avg- fBodyAccJerk.std-Z
+63:Average frequency domain Body Gyroscope on the z axis of the phone mean
 
-58:avg- fBodyAccJerk.meanFreq-X
+64:Average frequency domain Body Gyroscope on the x axis of the phone standard deviation
 
-59:avg- fBodyAccJerk.meanFreq-Y
+65:Average frequency domain Body Gyroscope on the y axis of the phone standard deviation
 
-60:avg- fBodyAccJerk.meanFreq-Z
+66:Average frequency domain Body Gyroscope on the z axis of the phone standard deviation
 
-61:avg- fBodyGyro.mean-X
+67:Average frequency domain Body Gyroscope on the x axis of the phone mean frequency
 
-62:avg- fBodyGyro.mean-Y
+68:Average frequency domain Body Gyroscope on the y axis of the phone mean frequency
 
-63:avg- fBodyGyro.mean-Z
+69:Average frequency domain Body Gyroscope on the z axis of the phone mean frequency
 
-64:avg- fBodyGyro.std-X
+70:Average frequency domain Body Acceleration of the phone Magnitude mean
 
-65:avg- fBodyGyro.std-Y
+71:Average frequency domain Body Acceleration of the phone Magnitude standard deviation
 
-66:avg- fBodyGyro.std-Z
+72:Average frequency domain Body Acceleration of the phone Magnitude mean frequency
 
-67:avg- fBodyGyro.meanFreq-X
+73:Average frequency domain BodyJerk Acceleration of the phone Magnitude mean
 
-68:avg- fBodyGyro.meanFreq-Y
+74:Average frequency domain BodyJerk Acceleration of the phone Magnitude standard deviation
 
-69:avg- fBodyGyro.meanFreq-Z
+75:Average frequency domain BodyJerk Acceleration of the phone Magnitude mean frequency
 
-70:avg- fBodyAccMag.mean..
+76:Average frequency domain BodyBody Gyroscope of the phone Magnitude mean
 
-71:avg- fBodyAccMag.std..
+77:Average frequency domain BodyBody Gyroscope of the phone Magnitude standard deviation
 
-72:avg- fBodyAccMag.meanFreq..
+78:Average frequency domain BodyBody Gyroscope of the phone Magnitude mean frequency
 
-73:avg- fBodyBodyAccJerkMag.mean..
+79:Average frequency domain BodyBody Gyroscope Jerk of the phone Magnitude mean
 
-74:avg- fBodyBodyAccJerkMag.std..
+80:Average frequency domain BodyBody Gyroscope Jerk of the phone Magnitude standard deviation
 
-75:avg- fBodyBodyAccJerkMag.meanFreq..
-
-76:avg- fBodyBodyGyroMag.mean..
-
-77:avg- fBodyBodyGyroMag.std..
-
-78:avg- fBodyBodyGyroMag.meanFreq..
-
-79:avg- fBodyBodyGyroJerkMag.mean..
-
-80:avg- fBodyBodyGyroJerkMag.std..
-
-81:avg- fBodyBodyGyroJerkMag.meanFreq..
+81:Average frequency domain BodyBody Gyroscope Jerk of the phone Magnitude mean frequency
 
 Citation
 --
